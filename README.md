@@ -52,3 +52,26 @@ Login Screen: Simple layout for user authentication
 Calculation Screen: Input fields for hydraulic parameters and real-time result display
 History Screen: List of saved calculations with options to view or delete
 Settings Screen: Options to customize user preferences
+
+Inputing formulas for pump operations according to standard Hydraulic Pump Operation for Firefighter standards and using department
+specific SOPs to tailor it to local protocol. 
+  PDP = FL + NP + APP +/- EL
+    Where FL = Friction Loss
+          NP = Nozzle Pressure
+          APP = Appliance
+          EL = ELevation
+      FL = C x (Q^2) x L
+        C = Coefficient which is based on the diameter of hose being utilized. 
+            Coefficents are as follows
+              1 3/4 = 15.5
+                  2 = 8
+                2.5 = 2
+                  3 = 0.8
+                  4 = 0.2
+                  5 = 0.08
+        Q = Gallons per Minute divided by 100 for example 400GPM would be 4
+        L = Length of hose divided by 100 
+
+  If given the scenario with a smooth bore, the GPM will be calculated as follows
+      GPM = 29.7 x d^2 x square root of NP
+        Where 29.7 is a constant, d = the diamter of the discharge, and NP is the nozzle pressure. 
