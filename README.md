@@ -75,3 +75,40 @@ specific SOPs to tailor it to local protocol.
   If given the scenario with a smooth bore, the GPM will be calculated as follows
       GPM = 29.7 x d^2 x square root of NP
         Where 29.7 is a constant, d = the diamter of the discharge, and NP is the nozzle pressure. 
+
+Formal Outline:
+
+1.	Project Outline:
+
+The hydraulics calculator app is designed specifically for firefighters conducting pumping operations. Its purpose is to simplify and speed up hydraulic calculations needed for efficient fire suppression. The app enables users to input relevant variables, such as hose length, pressure, and nozzle type, and automatically computes accurate hydraulic results. The target audience includes firefighters, fire engineers, and other emergency personnel requiring real-time hydraulic calculations during critical operations.
+
+2.	Problem Addressing:
+
+Firefighters often face high-pressure situations where accurate hydraulic calculations are essential to ensure adequate water flow during firefighting operations. Manually performing these calculations can be time-consuming and prone to error, especially under stress. The app addresses this problem by providing a reliable and efficient tool for performing hydraulic calculations instantly, ensuring the right water pressure and flow rate for effective firefighting, ultimately helping save lives and property.
+
+3.	Platform:
+
+The hydraulics calculator app will run on the Android platform. This platform was chosen due to its widespread use, versatility, and compatibility with various devices that firefighters and emergency personnel may use. Android offers strong support for mobile applications, providing the necessary tools and frameworks for building a robust, user-friendly app that can operate efficiently in both offline and online environments. This ensures the app can be deployed and used effectively in real-time emergency scenarios.
+
+4.	Front/Back End Support:
+
+•	Front-End Technologies: The app's user interface will be developed using Java and XML. Java will handle the logic and interactions, while XML will define the layout, ensuring a smooth and intuitive user experience for firefighters using the app during operations.
+
+•	Back-End Technologies: The back end will use SQLite to store and manage data locally on the device. This ensures that hydraulic calculation records, settings, and other relevant data are accessible even without internet connectivity, which is crucial during emergency situations.
+
+5.	Functionality:
+The hydraulics calculator app includes several key features:
+•	Input Fields for Hydraulic Parameters: Users can input critical parameters such as hose length, nozzle pressure, water flow rate, and friction loss.
+
+•	Real-Time Calculations: The app instantly performs accurate hydraulic calculations based on the entered parameters, providing firefighters with essential data for their operations.
+
+•	Data Storage: The app stores previous calculations and settings locally using SQLite, allowing users to retrieve past data for future reference, even when offline.
+
+6.	Design (Wireframes):
+The wireframes for the hydraulics calculator app outline a user-friendly interface tailored for quick input and access during emergency situations:
+•	Home Screen: Features options to input hydraulic parameters (hose length, pressure, flow rate) with large, easy-to-access buttons for rapid use in the field.
+
+•	Calculation Screen: Displays real-time results, including pressure and flow data, with clear visuals and color coding.
+
+•	Data Storage/History Screen: Allows users to view past calculations and access stored data for reference during operations.
+The design focuses on simplicity, speed, and ease of use under pressure.
